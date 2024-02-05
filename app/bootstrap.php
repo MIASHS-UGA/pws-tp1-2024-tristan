@@ -1,4 +1,6 @@
 <?php
+//Définition de la variable DB_PATH dans Article.php
+DEFINE('DB_PATH', realpath("./database.sqlite") );
 
 /**
  * TOUT LE CODE CONTENU DANS LES BALISES <?php et ?>
@@ -16,10 +18,12 @@ define('BASE_URL', '/'); //à utiliser si vous utilisez la commande "php -S loca
 // define('BASE_URL','/PWS-TP1/'); //à utiliser si vous utiliser une stack WAMP/LAMP/MAMP et que vous accédez au projet avec une url du type http://localhost/PWS-TP1/
 
 //une variable PHP de type tableau pour stocker les articles que l'on va récupérer dans la BDD
-$articles = [];
+//$articles = [];
 
 //Base de données
-try {
+
+
+/**try {
 
   // Connextion à la base de données SQLite
   $pdo = new \PDO('sqlite:' . realpath("./database.sqlite"));
@@ -40,6 +44,8 @@ try {
   print "Erreur base de données : " . $e->getMessage() . "<br/>";
   die();
 }
+*/
+
 
 // Session
 

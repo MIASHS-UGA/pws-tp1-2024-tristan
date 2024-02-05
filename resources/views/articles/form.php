@@ -1,0 +1,1 @@
+<form action="<?= BASE_URL ?>articles/add" method="post">

@@ -14,7 +14,7 @@ session_start(); //inititialise la session. Permet de créer un lien avec chaque
 
 //Une constante pour spécifier l'url du site
 //utilisée pour les liens hypertextes, les feuilles de style, les fichiers Javascript, les images, etc.
-define('BASE_URL', '/'); //à utiliser si vous utilisez la commande "php -S localhost:2023" pour accéder au projet
+ //à utiliser si vous utilisez la commande "php -S localhost:2023" pour accéder au projet
 // define('BASE_URL','/PWS-TP1/'); //à utiliser si vous utiliser une stack WAMP/LAMP/MAMP et que vous accédez au projet avec une url du type http://localhost/PWS-TP1/
 
 //une variable PHP de type tableau pour stocker les articles que l'on va récupérer dans la BDD
